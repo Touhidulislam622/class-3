@@ -4,6 +4,7 @@ import React from 'react';
 import Card from './Card';
 import Data from './cardData.json'
 import List from '../src/List'
+import NastedMapping from "./NastedMapping";
 
 
 function App() {
@@ -35,10 +36,13 @@ function App() {
 
   return (
     <div className="App">
-     <List />
+
+      <NastedMapping/>
+      
+     {/* <List /> */}
      <h1>Hello <span style={headingColorSystem1}>Bangladesh</span></h1>
       <h1 className="headingColor2">Another style system</h1>
-{/* 
+{/*   
       {items}; */}
 
       {/* {Data.map((Items)=> <Card tittleText={Items.title} descText={Items.desc}/>)} */}
