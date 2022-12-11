@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import Card from './Card';
 import Data from './cardData.json'
+import List from '../src/List'
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-     
+     <List />
      <h1>Hello <span style={headingColorSystem1}>Bangladesh</span></h1>
       <h1 className="headingColor2">Another style system</h1>
 {/* 
